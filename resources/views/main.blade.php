@@ -19,11 +19,11 @@
 <body>
 
     <div class="flex">
-        <div class="w-3/12 h-screen border border-gray-300 p-5">
+        <div class="w-[20%] h-screen border border-gray-300 p-5">
             <h1 class="font-icon font-semibold text-xl">PansosSpace</h1>
             <div class="main-menu mt-12">
-                <div class="menu-list flex flex-col gap-7">
-                    <div class="flex gap-3 items-center">
+                <div class="menu-list flex flex-col gap-4">
+                    <div class="flex gap-3 items-center hover:bg-gray-100 py-3 px-2 rounded-md">
                         <svg fill="#000000" width="27px" height="27px" viewBox="0 0 24 24" version="1.2"
                             baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -31,7 +31,11 @@
                         </svg>
                         <span class="font-bold">Home</span>
                     </div>
-                    <div class="flex gap-3 items-center">
+                    <div class="flex gap-3 items-center hover:bg-gray-100 py-3 px-2 rounded-md relative">
+                        <span
+                            class="bg-red-500 absolute w-4 h-4 text-center rounded-full text-white font-semibold text-xs left-5 top-2">
+                            5
+                        </span>
                         <svg fill="#000000" width="27px" height="27px" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -39,7 +43,7 @@
                         </svg>
                         <span class="">Cari</span>
                     </div>
-                    <div class="flex gap-3 items-center">
+                    <div class="flex gap-3 items-center hover:bg-gray-100 py-3 px-2 rounded-md">
                         <svg fill="#000000" width="27px" height="27px" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -47,7 +51,7 @@
                         </svg>
                         <span class="">Jelajahi</span>
                     </div>
-                    <div class="flex gap-3 items-center">
+                    <div class="flex gap-3 items-center hover:bg-gray-100 py-3 px-2 rounded-md">
                         <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -59,7 +63,7 @@
                         </svg>
                         <span class="">Reels</span>
                     </div>
-                    <div class="flex gap-3 items-center">
+                    <div class="flex gap-3 items-center hover:bg-gray-100 py-3 px-2 rounded-md">
                         <svg fill="#000000" width="27px" height="27px" viewBox="0 0 1024 1024"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -67,34 +71,89 @@
                         </svg>
                         <span class="">Reels</span>
                     </div>
-                    <div class="flex gap-2 items-center">
-                        <img src="https://ui-avatars.com/api/?background=random&name=Muhammad%20Khoyron%20Ahlaqul%20Firdaus"
-                            alt="" class="w-7 h-7 rounded-full">
-                        <span class="">Muhammad Khoyron Ahlaqul Firdaus</span>
-                    </div>
+                    <a href="/profile">
+                        <div class="flex gap-2 items-center px-2">
+                            <img src="https://ui-avatars.com/api/?background=random&name=Muhammad%20Khoyron%20Ahlaqul%20Firdaus"
+                                alt="" class="w-7 h-7 rounded-full">
+                            <span class="">Muhammad Khoyron Ahlaqul Firdaus</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="w-6/12 h-screen overflow-y-auto py-5 px-3 scrollbar-hide">
+        <div class="w-[55%] h-screen overflow-y-auto py-5 px-3 scrollbar-hide">
             <div class="w-full overflow-x-auto scrollbar-hide flex gap-3">
-                <img src="https://placebeard.it/100x100?random=1" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=2" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=3" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=4" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=5" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=6" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=7" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=8" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
-                <img src="https://placebeard.it/100x100?random=9" alt=""
-                    class="w-20 h-20 rounded-full border-2 border-gray-300 p-1" loading="lazy">
+                <div class="text-center">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=1" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>johndoe</small>
+                </div>
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=2" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-green-400 p-1" loading="lazy">
+                    </div>
+                    <small>johndoe</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=3" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-green-400 p-1" loading="lazy">
+                    </div>
+                    <small>janedoe</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=4" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>bobjones</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=5" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>alicemay</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=6" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>chrislee</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=7" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>emmasmith</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=8" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>@jamesbond</small>
+                </div>
+
+                <div class="text-center inline-block w-20 h-20">
+                    <div class="inline-block w-20 h-20">
+                        <img src="https://placebeard.it/100x100?random=9" alt=""
+                            class="w-20 h-20 rounded-full border-2 border-pink-400 p-1" loading="lazy">
+                    </div>
+                    <small>@harrypotter</small>
+                </div>
+
             </div>
 
             <section class="mt-10 px-10">
@@ -172,7 +231,7 @@
                 @endfor
             </section>
         </div>
-        <div class="w-3/12 h-screen border border-gray-300 p-5 overflow-y-auto scrollbar-hide">
+        <div class="w-[25%] h-screen border border-gray-300 p-5 overflow-y-auto scrollbar-hide">
             <div class="flex gap-2 items-center">
                 <img src="https://ui-avatars.com/api/?background=random&name=Muhammad%20Khoyron%20Ahlaqul%20Firdaus"
                     alt="" class="w-10 h-10 rounded-full">
